@@ -2,7 +2,7 @@
 /**
  * Custom Functions for Child Theme Template
  *
- * @package 	Child_Theme
+ * @package 	 Child_Theme
  * @author       Joshua David Nelson <josh@joshuadnelson.com>
  * @copyright    Copyright (c) 2014, Joshua David Nelson
  * @license      http://opensource.org/licenses/gpl-3.0.html GNU Public License
@@ -77,4 +77,18 @@ function child_remove_more_tag_link_jump( $link ) {
         $link = substr_replace($link, '', $offset, $end-$offset); //Remove the jump portion
     }
     return $link; //Return the link without jump portion or just the normal link if we didn't find a jump portion
+}
+
+/**
+ * Add Metaboxes
+ *
+ * @since 1.0.1
+ * @link https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress/blob/master/example-functions.php
+ **/
+add_action( 'init', 'child_initialize_cmb_meta_boxes', 9999 );
+function child_initialize_cmb_meta_boxes() {
+
+	if ( ! class_exists( 'cmb_Meta_Box' ) )
+		require_once 'init.php';
+
 }

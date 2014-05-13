@@ -1,0 +1,3 @@
+[submodule "includes/metabox"]
+	path = includes/metabox
+	url = https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress.git

@@ -1,6 +1,6 @@
 # Child Theme Boilerplate
 
-**Version**: 1.0.0 
+**Version**: 1.0.1
 **Requires at least**: 3.6  
 **Tested up to**: 3.9.1
 **License**: GPLv3
@@ -18,6 +18,9 @@ This script is easy to install.
 4. Build!
 
 ## Changelog
+
+### 1.0.1
+* Added Metabox submodule
 
 ### 1.0.0
 * Initial release.
