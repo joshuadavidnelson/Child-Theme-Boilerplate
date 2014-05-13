@@ -1,0 +1,9 @@
+# Don't add the Local settings file to the repository #
+
+
+# If using SASS to compile stylesheets this saves conflicts, plus there not needed! #
+# /.sass-cache/*
+ 
+# no need for these #
+.log
+.DS_Store
