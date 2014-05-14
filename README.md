@@ -1,4 +1,4 @@
-# Child Theme Boilerplate
+# WordPress Child Theme Boilerplate
 
 **Version**: 1.0.1
 **Requires at least**: 3.6  
