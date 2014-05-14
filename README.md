@@ -7,13 +7,13 @@
 
 ## Description
 
-This is the base I use to start a custom child theme project, includes [Custom Metaboxes & Fields Plugin](http://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress) for the theme settings framework.
+This is the base I use to start a custom child theme project, includes [Custom Metaboxes & Fields Plugin](http://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress) for the theme settings framework. Other than that, I'm trying to keep it simple so I can port in items that are needed.
 
 ## Installation
 
 This script is easy to install.
 
-1. Install into your themese folder.
+1. Install into your themes folder.
 3. Update the files to change `child_` prefixes to your own theme prefix, as well as the comment information.
 4. Build!
 
