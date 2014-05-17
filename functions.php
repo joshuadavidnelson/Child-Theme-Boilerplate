@@ -28,7 +28,7 @@ function child_theme_setup() {
 	// define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
 	
 	// Setup Theme Settings
-	include_once( CHILD_DIR . '/includes/child-theme-settings.php' );
+	include_once( get_stylesheet_directory_uri() . '/includes/child-theme-settings.php' );
 	
 	// Remove "More" Jump
 	add_filter( 'the_content_more_link', 'child_remove_more_tag_link_jump' );
@@ -89,6 +89,6 @@ add_action( 'init', 'child_initialize_cmb_meta_boxes', 9999 );
 function child_initialize_cmb_meta_boxes() {
 
 	if ( ! class_exists( 'cmb_Meta_Box' ) )
-		require_once 'init.php';
+		require_once ( get_stylesheet_directory_uri() . '/includes/metabox/init.php' );
 
 }
