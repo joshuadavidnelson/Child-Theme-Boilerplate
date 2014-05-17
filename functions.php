@@ -90,5 +90,4 @@ function child_initialize_cmb_meta_boxes() {
 
 	if ( ! class_exists( 'cmb_Meta_Box' ) )
 		require_once ( get_stylesheet_directory_uri() . '/includes/metabox/init.php' );
-
 }
