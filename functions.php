@@ -28,7 +28,7 @@ function child_theme_setup() {
 	// define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
 	
 	// Setup Theme Settings
-	include_once( get_stylesheet_directory_uri() . '/includes/child-theme-settings.php' );
+	//include_once( get_stylesheet_directory_uri() . '/includes/child-theme-settings.php' );
 	
 	// Remove "More" Jump
 	add_filter( 'the_content_more_link', 'child_remove_more_tag_link_jump' );
