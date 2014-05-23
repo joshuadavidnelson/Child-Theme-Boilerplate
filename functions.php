@@ -85,7 +85,7 @@ function child_remove_more_tag_link_jump( $link ) {
  * @since 1.0.1
  * @link https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress/blob/master/example-functions.php
  **/
-add_action( 'init', 'child_initialize_cmb_meta_boxes', 9999 );
+//add_action( 'init', 'child_initialize_cmb_meta_boxes', 9999 );
 function child_initialize_cmb_meta_boxes() {
 
 	if ( ! class_exists( 'cmb_Meta_Box' ) )
